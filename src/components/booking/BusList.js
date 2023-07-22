@@ -175,7 +175,7 @@ const BusList = () => {
     const getBus = async () => {
         try {
 
-            const data = await fetch(`https://content.newtonschool.co/v1/pr/63b70222af4f30335b4b3b9a/buses?source=${locationP.state.fromS}&destination=${locationP.state.toDest}`)
+            const data = await fetch(`https://content.newtonschool.co/v1/pr/63b70222af4f30335b4b3b9a/buses?limit=10&page=1source=${locationP.state.fromS}&destination=${locationP.state.toDest}`)
             initalData = await data.json()
             initalData.map((obj) => {
                 obj.type = "Volvo Sleeper (2+1)"

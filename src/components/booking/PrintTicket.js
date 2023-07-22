@@ -11,7 +11,7 @@ const PrintTicket = () => {
         <>
             <div className="ticket-body">
                 <div className="success-status">
-                    <h1>Ticket Booked Seccessfully</h1>
+                    <h1>Ticket Booked Successfully</h1>
                 </div>
                 <div className="ticket-details-body">
                     <div className="bus-list">

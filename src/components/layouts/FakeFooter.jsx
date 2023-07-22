@@ -1,6 +1,6 @@
 import React from "react";
 
-const Fake_footer = () => {
+const FakeFooter = () => {
     return (
         <div className="fake_div_footer">
             <div className="top_bus_routes">
@@ -109,4 +109,4 @@ const Fake_footer = () => {
         </div>
     )
 }
-export default Fake_footer;
+export default FakeFooter;
